@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "devops_lab1",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nprint('did it get triggered?')\n\n[1] \"did it get triggered?\"\n\nlibrary(rsconnect)"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nprint('did it get triggered?')\n\n[1] \"did it get triggered?\"\n\nlibrary(rsconnect)\nprint('does it work finally?')\n\n[1] \"does it work finally?\""
   },
   {
     "objectID": "about.html",
