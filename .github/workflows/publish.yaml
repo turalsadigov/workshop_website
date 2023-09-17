@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     permissions:
       contents: write
     steps:
@@ -28,7 +28,7 @@ jobs:
         with:
           cache-version: 1
         env:
-          RENV_CONFIG_REPOS_OVERRIDE: https://packagemanager.posit.co/client/#/
+          RENV_CONFIG_REPOS_OVERRIDE: https://packagemanager.posit.co/cran/__linux__/jammy/latest
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
