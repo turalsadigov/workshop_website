@@ -28,7 +28,7 @@ jobs:
         with:
           cache-version: 1
         env:
-          RENV_CONFIG_REPOS_OVERRIDE: https://packagemanager.rstudio.com/all
+          RENV_CONFIG_REPOS_OVERRIDE: https://packagemanager.posit.co/client/#/
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
