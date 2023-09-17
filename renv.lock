@@ -35,15 +35,9 @@
     },
     "bslib": {
       "Package": "bslib",
-      "Version": "0.5.1.9000",
-      "Source": "GitHub",
-      "Remotes": "rstudio/htmltools",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "bslib",
-      "RemoteUsername": "rstudio",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "7e5155048ba1db1eb75c2702c8c76044e237f8fc",
+      "Version": "0.5.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "base64enc",
@@ -52,13 +46,12 @@
         "htmltools",
         "jquerylib",
         "jsonlite",
-        "lifecycle",
         "memoise",
         "mime",
         "rlang",
         "sass"
       ],
-      "Hash": "05c342d385747ba2bc6b98f71769ebf5"
+      "Hash": "283015ddfbb9d7bf15ea9f0b5698f0d9"
     },
     "cachem": {
       "Package": "cachem",
@@ -169,14 +162,9 @@
     },
     "htmltools": {
       "Package": "htmltools",
-      "Version": "0.5.6.9000",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "htmltools",
-      "RemoteUsername": "rstudio",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "f8ef163d8eb37bd52fad26bf06dc9da44d2a1a3f",
+      "Version": "0.5.6",
+      "Source": "Repository",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "base64enc",
@@ -187,7 +175,7 @@
         "rlang",
         "utils"
       ],
-      "Hash": "4b377ae8ccc00c24b822e0afadb4a7ce"
+      "Hash": "a2326a66919a3311f7fbb1e3bf568283"
     },
     "jquerylib": {
       "Package": "jquerylib",
