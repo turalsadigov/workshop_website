@@ -13,6 +13,12 @@
     ]
   },
   "Packages": {
+    "rsconnect": {
+      "Package": "rsconnect",
+      "Source": "CRAN",
+      "Version": "1.1.0",
+      "Required": true
+    },
     "R6": {
       "Package": "R6",
       "Version": "2.5.1",
@@ -314,7 +320,7 @@
     },
     "sass": {
       "Package": "sass",
-      "Version": "0.4.7",
+      "Version": "0.4.7.9000",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
