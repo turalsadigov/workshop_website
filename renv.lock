@@ -314,9 +314,14 @@
     },
     "sass": {
       "Package": "sass",
-      "Version": "0.4.1.0.0.0.1647886269",
-      "Source": "Repository",
-      "Repository": "RSPM",
+      "Version": "0.4.7.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "sass",
+      "RemoteUsername": "rstudio",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "4f42680340264e1655745a99cbd7e0c0481b6a01",
       "Requirements": [
         "R6",
         "fs",
@@ -324,7 +329,7 @@
         "rappdirs",
         "rlang"
       ],
-      "Hash": "a8fdd059f386cd08d96db4a1b244c3fa"
+      "Hash": "de3db073534d5be979c8804296dfe1ac"
     },
     "stringi": {
       "Package": "stringi",
