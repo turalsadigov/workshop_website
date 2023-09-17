@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "devops_workshop_index.html",
+    "href": "devops_workshop_index.html",
+    "title": "devops_lab1",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "devops_lab1",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\nlibrary(bslib)\n\n\nAttaching package: 'bslib'\n\n\nThe following object is masked from 'package:utils':\n\n    page\n\nlibrary(sass)"
   },
   {
     "objectID": "about.html",
@@ -12,12 +19,5 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "devops_workshop_index.html",
-    "href": "devops_workshop_index.html",
-    "title": "devops_lab1",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   }
 ]
