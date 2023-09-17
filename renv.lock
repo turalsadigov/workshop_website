@@ -314,7 +314,7 @@
     },
     "sass": {
       "Package": "sass",
-      "Version": "0.4.7.9000",
+      "Version": "0.4.7",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
