@@ -13,12 +13,6 @@
     ]
   },
   "Packages": {
-    "rsconnect": {
-      "Package": "rsconnect",
-      "Source": "CRAN",
-      "Version": "1.1.0",
-      "Required": true
-    },
     "R6": {
       "Package": "R6",
       "Version": "2.5.1",
@@ -28,6 +22,16 @@
         "R"
       ],
       "Hash": "470851b6d5d0ac559e9d01bb352b4021"
+    },
+    "askpass": {
+      "Package": "askpass",
+      "Version": "1.2.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "sys"
+      ],
+      "Hash": "cad6cf7f1d5f6e906700b9d3e718c796"
     },
     "base64enc": {
       "Package": "base64enc",
@@ -80,6 +84,16 @@
         "utils"
       ],
       "Hash": "89e6d8219950eac806ae0c489052048a"
+    },
+    "curl": {
+      "Package": "curl",
+      "Version": "5.0.2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "511bacbfa153a15251166b463b4da4f9"
     },
     "digest": {
       "Package": "digest",
@@ -263,6 +277,28 @@
       ],
       "Hash": "18e9c28c1d3ca1560ce30658b22ce104"
     },
+    "openssl": {
+      "Package": "openssl",
+      "Version": "2.1.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "askpass"
+      ],
+      "Hash": "273a6bb4a9844c296a459d2176673270"
+    },
+    "packrat": {
+      "Package": "packrat",
+      "Version": "0.9.2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "tools",
+        "utils"
+      ],
+      "Hash": "55ddd2d4a1959535f18393478b0c14a6"
+    },
     "rappdirs": {
       "Package": "rappdirs",
       "Version": "0.3.3",
@@ -318,16 +354,40 @@
       ],
       "Hash": "3854c37590717c08c32ec8542a2e0a35"
     },
+    "rsconnect": {
+      "Package": "rsconnect",
+      "Version": "1.1.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "cli",
+        "curl",
+        "digest",
+        "jsonlite",
+        "lifecycle",
+        "openssl",
+        "packrat",
+        "renv",
+        "rlang",
+        "rstudioapi",
+        "tools",
+        "yaml"
+      ],
+      "Hash": "ec53d658cf0abbd7cd7ce2d6b9d70337"
+    },
+    "rstudioapi": {
+      "Package": "rstudioapi",
+      "Version": "0.15.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "5564500e25cffad9e22244ced1379887"
+    },
     "sass": {
       "Package": "sass",
       "Version": "0.4.7",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "sass",
-      "RemoteUsername": "rstudio",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "4f42680340264e1655745a99cbd7e0c0481b6a01",
+      "Source": "Repository",
+      "Repository": "RSPM",
       "Requirements": [
         "R6",
         "fs",
@@ -335,7 +395,7 @@
         "rappdirs",
         "rlang"
       ],
-      "Hash": "de3db073534d5be979c8804296dfe1ac"
+      "Hash": "a8fdd059f386cd08d96db4a1b244c3fa"
     },
     "stringi": {
       "Package": "stringi",
@@ -366,6 +426,13 @@
         "vctrs"
       ],
       "Hash": "671a4d384ae9d32fc47a14e98bfa3dc8"
+    },
+    "sys": {
+      "Package": "sys",
+      "Version": "3.4.2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "3a1be13d68d47a8cd0bfd74739ca1555"
     },
     "tinytex": {
       "Package": "tinytex",
