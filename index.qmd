@@ -10,4 +10,5 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 print('did it get triggered?')
 library(rsconnect)
 print('does it work finally?')
+print('how about now?')
 ```
